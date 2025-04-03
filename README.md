@@ -12,5 +12,4 @@ some text here
 ---
 
 
-every one is a /////
 
