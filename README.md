@@ -2,8 +2,8 @@
 
 some text here
 
-*banana
-*apple 
+**banana
+**apple 
 
 1.cat
 2.gog
