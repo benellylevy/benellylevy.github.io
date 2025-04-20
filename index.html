@@ -1,92 +1,167 @@
-
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>קורות חיים - בן אל לוי</title>
+  <title>בן אל לוי | חוקר טבע וסביבה</title>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: "David", serif;
-      background-color: #f9f9f9;
-      color: #222;
-      line-height: 1.6;
-      max-width: 800px;
+      font-family: 'Assistant', sans-serif;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+      color: #2c3e50;
+      line-height: 1.8;
+      max-width: 1000px;
       margin: auto;
       padding: 2rem;
+      text-align: center;
     }
-    h1, h2 {
-      color: #444;
+
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #fffaf2;
+      padding: 1rem;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 2rem;
     }
+
+    nav a {
+      margin: 0 1.2rem;
+      color: #3b7a57;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     h1 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #14532d;
     }
+
+    h2 {
+      color: #374151;
+      font-size: 2rem;
+      border-bottom: 1px dashed #aaa;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
     section {
+      margin-bottom: 3rem;
+    }
+
+    .button {
+      background-color: #3b7a57;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2e6044;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #6b7280;
       margin-bottom: 2rem;
     }
   </style>
 </head>
 <body>
 
-  <h1>בן אל לוי</h1>
+  <nav>
+    <a href="#about">אודות</a>
+    <a href="#education">השכלה</a>
+    <a href="#experience">ניסיון</a>
+    <a href="#skills">כישורים</a>
+    <a href="#contact">צור קשר</a>
+  </nav>
 
-  <section>
-    <h2>פרטים אישיים</h2>
+  <h1>בן אל לוי 🌿</h1>
+  <p class="tagline">חוקר סביבתי, איש אדמה, אדם של משמעות</p>
+
+  <section id="about">
+    <h2>אודות ✨</h2>
     <p>
-      כתובת: מאיר אבנר 3, ירושלים<br>
-      טלפון: +972-50-8681878<br>
-      אימייל: benel.levy@gmail.com<br>
-      מצב משפחתי: רווק<br>
-      רישיון נהיגה: בתוקף
+      נולדתי בירושלים וחי בין מדע, שקט, ושורשים.  
+      המחקר שלי נוגע בעצים, בתגובה שלהם לעולם, ובמה שאנחנו יכולים ללמוד מהם.  
+      אני מאמין בפשטות שמובילה לעומק, ובטכנולוגיה שמשרתת את החיים – לא להפך.
     </p>
   </section>
 
-  <section>
-    <h2>השכלה</h2>
+  <section id="education">
+    <h2>השכלה 🎓</h2>
     <ul>
-      <li><strong>2023–הווה:</strong> תואר שני במדעי הצמח והסביבה, מכון ויצמן למדע</li>
-      <li><strong>2020–2023:</strong> תואר ראשון בביוטכנולוגיה, מכללת הדסה, ירושלים (בהצטיינות, ממוצע 93)</li>
+      <li><strong>2023–הווה:</strong> M.Sc במדעי הצמח והסביבה, מכון ויצמן</li>
+      <li><strong>2020–2023:</strong> B.Sc בביוטכנולוגיה, מכללת הדסה – בהצטיינות (ממוצע 93)</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>ניסיון מקצועי 🧪</h2>
+    <ul>
+      <li><strong>2020–הווה:</strong> עוזר מחקר, מכון ויצמן – מחקר על תגובת עצים ללחץ סביבתי</li>
+      <li><strong>2018–2020:</strong> מדריך בשק״ל – ליווי אנשים עם צרכים מיוחדים</li>
+      <li><strong>2016–2018:</strong> מנהל סניף פיצה עגבניה 🍕</li>
     </ul>
   </section>
 
   <section>
-    <h2>ניסיון מקצועי</h2>
+    <h2>שירות צבאי 🪖</h2>
     <ul>
-      <li><strong>2020–הווה:</strong> עוזר מחקר במכון ויצמן, חוקר תגובות עצים לתנאי סביבה משתנים</li>
-      <li><strong>2018–2020:</strong> מדריך קבוצות לאנשים עם צרכים מיוחדים בארגון שק"ל</li>
-      <li><strong>2016–2018:</strong> מנהל סניף, פיצה עגבניה – ניהול צוות, שירות ולוגיסטיקה</li>
+      <li><strong>2013–2016:</strong> חיל הרפואה – פיקוח תברואתי ובטיחות מזון</li>
+      <li><strong>2024:</strong> מפקד מילואים RAM 2 – לוגיסטיקה וניהול</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>כישורים 💻</h2>
+    <ul>
+      <li>תכנות ב־Python, שליטה ב־Git ו־GitHub</li>
+      <li>סטטיסטיקה, ניתוח נתונים, עבודה עם ציוד מעבדה מתקדם</li>
+      <li>שליטה מלאה ב־Office, כתיבה מדעית ודיגיטלית</li>
     </ul>
   </section>
 
   <section>
-    <h2>שירות צבאי</h2>
-    <ul>
-      <li><strong>2013–2016:</strong> חיל הרפואה – פיקוח על בטיחות מזון והיגיינה</li>
-      <li><strong>2024 (מילואים):</strong> מפקד יחידת RAM 2 – ניהול לוגיסטיקה ואימונים</li>
-    </ul>
+    <h2>שפות 🌍</h2>
+    <p>עברית – שפת אם | אנגלית – רמה גבוהה מאוד</p>
   </section>
 
   <section>
-    <h2>שפות</h2>
-    <p>עברית – שפת אם | אנגלית – רמה גבוהה</p>
-  </section>
-
-  <section>
-    <h2>כישורים</h2>
+    <h2>תחומי עניין 🌱</h2>
     <ul>
-      <li>שליטה ב-Python ובכלי עיבוד נתונים</li>
-      <li>היכרות עם ציוד מעבדה מתקדם וניתוח סטטיסטי</li>
-      <li>אופיס, אינטרנט, Adobe Reader</li>
+      <li>גידול פטריות, עשייה בעבודת יד, סבונים טבעיים</li>
+      <li>מסעות שקטים, כלבים, חיבורים אנושיים אמיתיים</li>
     </ul>
   </section>
 
-  <section>
-    <h2>תחומי עניין</h2>
-    <ul>
-      <li>מדע ואקולוגיה</li>
-      <li>חיים פשוטים – גידול פטריות, יצירה בעבודת יד</li>
-      <li>שירות, אחריות, משמעות</li>
-    </ul>
+  <section id="contact">
+    <h2>צור קשר 📬</h2>
+    <p>benel.levy@gmail.com</p>
+    <a href="https://github.com/benellylevy" class="button" target="_blank">👨‍🔬 לעמוד הגיטהאב שלי</a>
   </section>
 
 </body>
