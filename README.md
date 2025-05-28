@@ -1,5 +1,6 @@
 # Welcome to My Personal Website
 
+![my Experimwnt](img.png)
 Hi, I'm **Benel**!  
 I'm a Master's student in **Life Sciences**, passionate about exploring the wonders of biology and science.
 
